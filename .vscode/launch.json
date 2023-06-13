@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ApiGatewayApplication",
+      "request": "launch",
+      "mainClass": "com.springboot.apigateway.ApiGatewayApplication",
+      "projectName": "api-gateway"
+    },
+    {
+      "type": "java",
+      "name": "EmployeeServiceApplication",
+      "request": "launch",
+      "mainClass": "com.springboot.employeeservice.EmployeeServiceApplication",
+      "projectName": "employee-service"
+    },
+    {
+      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"
